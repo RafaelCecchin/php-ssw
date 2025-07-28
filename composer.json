@@ -1,0 +1,16 @@
+{
+    "name": "rafaelcecchin/php-ssw",
+    "description": "Simple SSW API",
+    "autoload": {
+        "psr-4": {
+            "RafaelCecchin\\phpSSW\\": "src/RafaelCecchin/phpSSW/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafael Cecchin",
+            "email": "contatorafaelcecchin@gmail.com"
+        }
+    ],
+    "require": {}
+}
