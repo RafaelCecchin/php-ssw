@@ -12,5 +12,8 @@
             "email": "contatorafaelcecchin@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/dom-crawler": "^6.4",
+        "symfony/css-selector": "^6.4"
+    }
 }
