@@ -92,8 +92,8 @@ class SSW
             if (isset($td2[1])) $localization['unit'] = SSW::sanitize($td2[1]);
             
             $status = [];
-            $titulo = $td3->filter('p:first-of-type');
-            $descricao = $td3->filter('p:last-of-type');
+            $titulo = $td3->filter('b');
+            $descricao = $td3->filter('.tdb');
 
             if ($titulo->count()) $status['titulo'] = SSW::sanitize($titulo->html());
             if ($descricao->count()) $status['descricao'] = SSW::sanitize($descricao->html());
